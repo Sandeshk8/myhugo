@@ -1,0 +1,42 @@
+baseURL: http://example.org/
+languageCode: en-us
+title: Welcome Voyager
+theme: PaperMod
+
+params:
+    homeInfoParams:
+        Title: Hi There 🚀
+        Content: I am Sandesh Kadam ,final year engineering student at the University of Pune interested in software development, server-side work, Android, and cloud computing. below are a few of my projects and achievements
+
+    socialIcons: # optional
+        - name: Github
+          url: "github.com/sandeshk8"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/sandesh-kadam-8719761a0/"
+        - name: email
+          url: "mailto:sandeshkadam213@gmail.com"
+    
+    ShowBreadCrumbs: true
+
+    ShowReadingTime : true
+        
+    ShowPostNavLinks: true
+
+    ShowCodeCopyButtons: true
+
+    hidefooter : true
+
+menu:
+    main:
+    - identifier: About Me
+      name : About Me
+      url : /
+      weight: 10
+    - identifier: Projects
+      name : Projects
+      url : /Projects/
+      weight: 20
+    - identifier: Resume
+      name : Resume
+      url : /Resume/
+      weight: 30 
